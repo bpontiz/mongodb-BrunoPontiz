@@ -75,11 +75,5 @@ Utilizando Mongo Shell, crear una base de datos llamada ecommerce que contenga d
     > use admin
     > db.createUser({user: "pepe", pwd: "asd456", roles: [{role: "read", db: "ecommerce"}]})
 
-    Verificacion de que pepe no pueda cambiar la informacion
+    Verificaciones de usuario
     > mongosh -u 'pepe' -p
-    
-
-
-
-
-
